@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	 <link type="text/css" rel="stylesheet" href="style.css">
+<title>Tip Calculator</title>
+</head>
+
+<body>
+	<div id="container">
+		<div class="phone">
+			<img class="phoneimage" src="phone.png" alt="Phone">
+			<div class="text">
+				<h1>TIP<span class="a">CALCULATOR</span></h1>
+			</div>	
+			<form>
+				<p>How much was the bill?</p>
+					<input id="billAmt" type="number" placeholder="Bill Amount">
+				
+				<br>
+				<br>
+
+				<p>How was the service?</p>
+				<select id="serviceRating">
+					<option disabled selected value="0"> --Choose a Rating of Service-- </option>
+					<option value=".3">30% - Amazing!</option>
+					<option value=".2">20% - Good!</option>
+					<option value=".15">15% - OK.</option>
+					<option value=".1">10% - Bad!</option>
+					<option value=".05">5% - Horribe!</option>
+				</select>
+				
+				<br>
+				<br>
+
+				<p>How many people are paying the bill?</p>
+					<input id="peopleAmt" type="number" placeholder="Number of People Paying">
+			</form>
+			<button type="button" id="calculate">CALCULATE</button>
+			<div class="tipTotal">
+				<p class="amounts">Your TIP amount is: <br>
+				<span class="totals">$<span id="tip">0.00 </span><small class="each"> EACH</small></p></span>
+			</div>
+			<div class="billTotal">
+				<p class="amounts">Your TOTAL bill is:<br>
+				<span class="totals">$<span id="bill">0.00 </span><small class="billeach"> EACH</small></p></span>
+			</div>
+			
+			
+			
+		</div>	
+	</div>
+<script type="text/javascript" src="tip.js"></script>	
+	
+</body>
+</html>

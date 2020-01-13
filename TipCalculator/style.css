@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("woodgrain.png");
+}
+
+
+.phone {
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -50px;
+}
+
+.phoneimage {
+	width: 675px;
+	height: auto;
+}
+
+.text {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 15%;
+	text-align: center;	
+}
+
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 750;
+	color: #F2901A;
+	
+}
+
+p {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 700;
+	font-size: 130%;
+	color: #11468C;
+}
+
+span.a {
+	font-weight: 400;
+	color: #CFDFF2;
+}
+
+form {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 25%;
+	text-align: center;	
+}
+
+
+#calculate {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 58%;
+	text-align: center;	
+	width: 50%;
+	height: 5%;
+	font-size: 145%;
+	background-color: #11468C;
+	color: white;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 700;
+}
+
+.tipTotal {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 63%;
+	text-align: center;	
+	width: 50%;
+	height: 5%;
+	font-size: 120%;
+}
+
+.billTotal {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 72%;
+	text-align: center;	
+	width: 50%;
+	height: 5%;
+	font-size: 120%;
+}
+
+span.totals {
+	color: #F2901A;
+}
+
+.each {
+	display: unset;
+}
+
+
+
+
+
+
+
